@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cores">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#388e3c">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/parlamento" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#8888"
+            android:text="Eleccion de diputados"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#8888"
+            android:text="Selecciona tu Diputado"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        //Carlos Ferry Campodónico
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/TVcarlosferry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Carlos "
+                android:textColor="@android:color/transparent" />
+            <TextView
+                android:id="@+id/TVcompodonico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/transparent"
+                android:text=" Ferry Campodónico"
+                android:layout_marginTop="25dp"/>
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-170dp"
+                android:src="@drawable/carlosferry" />
+            <Button
+                android:background="#9e9e9e9e"
+                android:id="@+id/BTcarlosferry"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Vota por Carlos Ferry"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+        //Ximena Verónica Valcarce Becerra
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/TVximena"
+                android:textColor="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ximena Verónica "
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:id="@+id/TVbecerra"
+                android:textColor="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valcarce Becerra"
+                android:layout_marginTop="25dp"/>
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-215dp"
+                android:src="@drawable/ximena" />
+            <Button
+                android:background="#9e9e9e9e"
+                android:id="@+id/BTNximena"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Vota por Ximena Verónica Valcarce"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+        //José Lee Rodríguez
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/TVjoselee"
+                android:textColor="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="José "
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:id="@+id/TVlee"
+                android:textColor="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Lee Rodríguez"
+                android:layout_marginTop="25dp"/>
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-125dp"
+                android:src="@drawable/joselee" />
+            <Button
+                android:background="#9e9e9e9e"
+                android:id="@+id/BTNjoselee"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Vota por José Lee Rodríguez"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+        //Giancarlo Baltolu Quintano
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/TVgiancarlo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giancarlo"
+                android:textColor="@android:color/transparent"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:id="@+id/TVbaltolu"
+                android:textColor="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baltolu Quintano"
+                android:layout_marginTop="25dp"/>
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginLeft="-163dp"
+                android:src="@drawable/giancarlo" />
+            <Button
+                android:background="#9e9e9e9e"
+                android:id="@+id/BTNgiancarlo"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Vota por Giancarlo Baltolu"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

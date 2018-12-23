@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#283594"
+    tools:context=".Presidenciales">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:src="@drawable/presidencial"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Eleccion presidencial"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="#8888"/>
+
+        <TextView
+            android:id="@+id/TVCandidato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VOTA POR TU PRESIDENTE"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#8888"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+        //Carolina Goic
+        <TextView
+            android:id="@+id/TVgoic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carolina"
+            android:textColor="@android:color/transparent"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:id="@+id/TVcarolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goic"
+            android:textColor="@android:color/transparent"/>
+        <ImageView
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/goic"/>
+        <Button
+            android:id="@+id/BTNcarolina"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:text="Vota por Carolina Goic"
+            android:background="#9e9e9e9e"
+            />
+        </LinearLayout>
+
+
+        //Alejandro Guiller
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TValejandro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alejandro"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVguiller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gullier"/>
+        <ImageView
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/guiller"/>
+        <Button
+            android:id="@+id/BTNguller"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Vota por Alejandro Guiller"
+            android:background="#9e9e9e9e"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+        //Sebastian Piñera
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVsebastian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sebastian"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVpiñera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piñera"/>
+        <ImageView
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="-100dp"
+            android:src="@drawable/seba"/>
+        <Button
+            android:id="@+id/BTNpiñera"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9e9e9e9e"
+            android:text="Vota por Sebastian Piñera"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+        //Beatrin Sanchez
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVbeatriz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beatriz"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVsanchez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sanchez"/>
+        <ImageView
+            android:layout_marginLeft="-95dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/beatri"/>
+        <Button
+            android:id="@+id/BTNsanchez"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9e9e9e9e"
+            android:text="Vota por Beatriz Sanchez"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+        //Marcos Errique Ominami
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVmarcos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marcos Enrrique"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVmeo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ominami"/>
+        <ImageView
+            android:layout_marginLeft="-155dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ominami"/>
+        <Button
+            android:id="@+id/BTNmeo"
+            android:layout_width="match_parent"
+            android:background="#9e9e9e9e"
+            android:layout_height="95dp"
+            android:text="Vota por Marcos Enrrique Ominami"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+        //Juan Antonio Kast
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVjuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Juan Antonio"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVkast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kas"/>
+        <ImageView
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kast"/>
+        <Button
+            android:id="@+id/BTNkast"
+            android:layout_width="match_parent"
+            android:background="#9e9e9e9e"
+            android:layout_height="100dp"
+            android:text="Vota por Juan Antonio Kast"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+        //Alejandro Navarro
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alejandro"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVnavarro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navarro"/>
+        <ImageView
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/navarr"/>
+        <Button
+            android:id="@+id/BTNnavarro"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#9e9e9e9e"
+            android:text="Vota por Juan Antonio Kast"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+
+
+
+        //Eduardo Artes
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVedu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eduardo"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:textColor="@android:color/transparent"
+            android:id="@+id/TVartes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artes"/>
+        <ImageView
+            android:layout_marginLeft="-75dp"
+            android:layout_marginTop="-0dp"
+            android:layout_width="118dp"
+            android:layout_height="80dp"
+            android:src="@drawable/arte"/>
+        <Button
+            android:id="@+id/BTNartes"
+            android:layout_width="match_parent"
+            android:background="#9e9e9e9e"
+            android:layout_height="100dp"
+            android:text="Vota por Eduardo Artes"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

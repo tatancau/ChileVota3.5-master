@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MuestraVoto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+ <TextView
+     android:id="@+id/TVpresi"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:text="Presindente"/>
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+ <TextView
+     android:text="DIPUTADO"
+     android:id="@+id/TVdipu"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" />
+
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="100dp">
+
+  <TextView
+      android:text="SENADOR"
+      android:id="@+id/TVSena"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+ </LinearLayout>
+
+ <LinearLayout
+     android:text="SENADOR"
+     android:layout_width="match_parent"
+     android:layout_height="100dp">
+
+  <TextView
+      android:id="@+id/TVCore"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="CORE"/>
+ </LinearLayout>
+
+ <TextView
+  android:layout_gravity="center"
+     android:layout_width="200dp"
+     android:layout_height="30dp"
+     android:text="¿Confirma su voto?"/>
+<Button
+android:id="@+id/BTNconfirma"
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:text="Confirmar su voto"/>
+ <Button
+     android:id="@+id/BTNcancela"
+     android:layout_marginTop="-50dp"
+     android:layout_marginLeft="200dp"
+     android:layout_width="150dp"
+     android:layout_height="50dp"
+     android:text="Cancelar voto"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
